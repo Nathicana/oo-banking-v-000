@@ -1,6 +1,6 @@
 class Transfer
 
-attr_reader :sender, 
+attr_reader :sender
 
 
 def initialize(sender)

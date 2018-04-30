@@ -16,8 +16,8 @@ class BankAccount
     "Your balance is $#{balance}."
   end
 
-  def deposit(deposit)
-   self.deposit = deposit
+  def deposit(deposit_amount)
+   self.deposit = deposit_amount
  end
 
  def valid?

@@ -24,8 +24,8 @@ class BankAccount
    end
 end
 
-def close_account 
-  self.close 
+def close_account
+  self.close
 end
 
 end

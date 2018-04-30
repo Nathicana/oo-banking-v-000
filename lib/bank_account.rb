@@ -17,7 +17,7 @@ class BankAccount
   end
 
   def deposit(deposit)
-   @all << deposit
+   self.deposit = deposit
  end
 
  def valid?
@@ -28,5 +28,6 @@ class BankAccount
 def close_account
   self.status = "closed"
 end
+
 
 end

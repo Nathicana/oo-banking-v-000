@@ -1,12 +1,13 @@
 class BankAccount
 
   attr_reader :name, :status, :balance
-  BankAccount = []
+  BANKACCOUNT = []
 
   def initialize(name, status = 'open', balance = 1000)
    @name = name
    @status = status
    @balance = balance
+   BANKACCOUNT << self
   end
 
 

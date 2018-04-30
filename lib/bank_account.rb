@@ -19,10 +19,8 @@ class BankAccount
    @all << deposit
  end
 
- def valid 
-   if @status === "open" && @balance > 0 ? valid 
-   else 
-     invalid 
+ def valid
+   if @status === "open" && @balance > 0 ? valid : invalid
    end
 
 end

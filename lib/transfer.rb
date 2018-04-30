@@ -26,8 +26,8 @@ def execute_transaction
 end
 
 
-def reject_transfer 
-  self.status = "rejected" 
+def reject_transfer
+  self.status = "rejected"
   "Transation rejected. Please check your account balance"
 end
 

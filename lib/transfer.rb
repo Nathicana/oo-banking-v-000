@@ -16,14 +16,14 @@ sender.valid? && receiver.valid?
 end
 
 def execute_transaction
-  if valid? && sender.balance > amount && self.status == "pending"
+  if valid? && sender.balance > amount
     sender.balance -= amount
-    receiver.balance += amount 
+    receiver.balance += amount
     self.status = "complete"
-  else 
-    reject.transfer 
-  end 
-end 
+  else
+    reject.transfer
+  end
+end
 
 
 end

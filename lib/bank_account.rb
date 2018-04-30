@@ -20,10 +20,10 @@ class BankAccount
    @all << deposit
  end
 
- def valid
-   if @status === "open" && @balance > 0 ? valid : invalid
+ def valid?
+   status.valid? && balance.valid?
    end
-end
+
 
 def close_account
   status = "closed"

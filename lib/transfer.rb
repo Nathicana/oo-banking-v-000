@@ -6,8 +6,8 @@ attr_accessor :status
 
 def initialize(amount, sender, receiver)
   @status = "pending"
-  @receiver = receiver
   @sender = sender
+  @receiver = receiver
   @amount = amount
 
 end

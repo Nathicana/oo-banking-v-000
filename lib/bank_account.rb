@@ -6,8 +6,7 @@ class BankAccount
   def initialize(name, status = 'open', balance = 1000)
    @name = name
    @status = status
-   @balance = balance
-   @display_balance = display_balance
+   
    end
 
 end

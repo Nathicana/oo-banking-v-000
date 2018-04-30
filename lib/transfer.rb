@@ -21,7 +21,7 @@ def execute_transaction
     receiver.balance += amount
     self.status = "complete"
   else
-    reject.transfer
+    reject_transfer
   end
 end
 

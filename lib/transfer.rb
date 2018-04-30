@@ -1,6 +1,6 @@
 class Transfer
 
-attr_reader :status
+attr_accessor :status
 
 
 def initialize( status = 'pending')

@@ -17,7 +17,7 @@ class BankAccount
   end
 
   def deposit(deposit_amount)
-   self.deposit += deposit_amount
+   self.balance += deposit_amount
  end
 
  def valid?
